@@ -4,22 +4,6 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function DrawerLayout() {
   return (
-    // <Stack screenOptions={{
-    //   headerStyle: {
-    //     backgroundColor: '#f4511e',
-    //   },
-    //   headerTintColor: '#fff',
-    //   headerTitleStyle: {
-    //     fontWeight: 'bold',
-    //   },
-    // }}>
-    //   <Stack.Screen name="index" />
-    //   <Stack.Screen name="about" />
-    //   <Stack.Screen name="pageWOHeader" options={{ headerShown: false }} />
-    //   <Stack.Screen name="user" />
-    //   <Stack.Screen name="(tabs)" />
-    // </Stack>
-
     <GestureHandlerRootView style={{ flex: 1 }}>
       <Drawer screenOptions={{
         headerStyle: {
