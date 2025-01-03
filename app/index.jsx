@@ -32,7 +32,7 @@ export default function Index() {
           pathname: './user',
           params: { user: 'Lucy' + new Date().getSeconds() } //pay atention this will run only once 
           // when the link is rendered the first time and will not change after 
-          // g each time the link is pressed
+          // each time the link is pressed
         }}
         style={{margin: 20, color: 'blue'}}
         >
