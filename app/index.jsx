@@ -27,6 +27,18 @@ export default function Index() {
       <Button title="go 2 page with data" onPress={() =>
         router.push({ pathname: "./user", params: { user: 'Lucy' + new Date().getSeconds() } })} />
 
+      <Link
+        href={{
+          pathname: './user',
+          params: { user: 'Lucy' + new Date().getSeconds() } //pay atention this will run only once 
+          // when the link is rendered the first time and will not change after 
+          // g each time the link is pressed
+        }}
+        style={{margin: 20, color: 'blue'}}
+        >
+        go 2 page with data using Link
+      </Link>
+
       <Link href="(tabs)/properties"
         style={{
           color: 'blue',
